@@ -1,5 +1,6 @@
 import main.scala.convertIntToString.IntToStringConverterMain
 import convertStringToInt.stringToIntConverterMain
+import main.scala.functionType.FunctionTypeMain
 import main.scala.kevinBacon.KevinBaconMain
 import main.scala.removeCharactersFromString.RemoveCharactersFromStringMain
 import main.scala.reverseWordOrder.reverseByReadingWordsAndWritingThemInReversedOrderToOutputBuffer.ReverseWordOrderMain
@@ -31,7 +32,11 @@ object Main {
     println(stringToIntConverterMain.Run())
   }*/
 
-  def main (args: Array[String]) : Unit = {
+  /*def main (args: Array[String]) : Unit = {
     println(IntToStringConverterMain.Run())
+  }*/
+
+  def main (args: Array[String]) : Unit = {
+    FunctionTypeMain.Run();
   }
 }
