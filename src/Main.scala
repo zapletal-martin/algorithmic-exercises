@@ -1,3 +1,4 @@
+import main.scala.binarySearchOnSortedArray.binarySearchMain
 import main.scala.convertIntToString.IntToStringConverterMain
 import convertStringToInt.stringToIntConverterMain
 import main.scala.functionType.FunctionTypeMain
@@ -36,7 +37,12 @@ object Main {
     println(IntToStringConverterMain.Run())
   }*/
 
+  /*def main (args: Array[String]) : Unit = {
+    FunctionTypeMain.Run;
+  }*/
+
   def main (args: Array[String]) : Unit = {
-    FunctionTypeMain.Run();
+    binarySearchMain.Run()
   }
+
 }
