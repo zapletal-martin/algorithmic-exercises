@@ -3,6 +3,7 @@ import main.scala.convertIntToString.IntToStringConverterMain
 import convertStringToInt.stringToIntConverterMain
 import main.scala.functionType.FunctionTypeMain
 import main.scala.kevinBacon.KevinBaconMain
+import main.scala.permutationsOfAString.PermutationsOfAStringMain
 import main.scala.removeCharactersFromString.RemoveCharactersFromStringMain
 import main.scala.reverseWordOrder.reverseByReadingWordsAndWritingThemInReversedOrderToOutputBuffer.ReverseWordOrderMain
 import main.scala.reverseWordOrder.reverseByRevertingTheWholeStringAndThenRevertingOrderOfCharsInEachWord.ReverseWordOrderMain2
@@ -41,8 +42,12 @@ object Main {
     FunctionTypeMain.Run;
   }*/
 
-  def main (args: Array[String]) : Unit = {
+  /*def main (args: Array[String]) : Unit = {
     binarySearchMain.Run()
+  }*/
+
+  def main (args: Array[String]) : Unit = {
+    PermutationsOfAStringMain.Run()
   }
 
 }
