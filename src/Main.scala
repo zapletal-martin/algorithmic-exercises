@@ -1,4 +1,5 @@
 import main.scala.binarySearchOnSortedArray.binarySearchMain
+import main.scala.combinationsOfAString.CombinationsOfAStringMain
 import main.scala.convertIntToString.IntToStringConverterMain
 import convertStringToInt.stringToIntConverterMain
 import main.scala.functionType.FunctionTypeMain
@@ -46,8 +47,12 @@ object Main {
     binarySearchMain.Run()
   }*/
 
-  def main (args: Array[String]) : Unit = {
+  /*def main (args: Array[String]) : Unit = {
     PermutationsOfAStringMain.Run()
+  }*/
+
+  def main (args: Array[String]) : Unit = {
+    CombinationsOfAStringMain.Run()
   }
 
 }
