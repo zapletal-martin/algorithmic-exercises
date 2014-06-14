@@ -1,8 +1,8 @@
 package convertStringToInt
 
-object stringToIntConverterMain {
+object StringToIntConverterMain {
   def Run () = {
-    val converter = new stringToIntConverter()
+    val converter = new StringToIntConverter()
 
     converter.Convert("1234")
   }

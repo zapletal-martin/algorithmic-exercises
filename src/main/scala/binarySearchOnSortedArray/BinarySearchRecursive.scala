@@ -1,6 +1,6 @@
 package binarySearchOnSortedArray
 
-class binarySearchRecursive {
+class BinarySearchRecursive {
   def Search(arr: Array[Int], search: Int): Int = {
     val curr = arr.length / 2
 

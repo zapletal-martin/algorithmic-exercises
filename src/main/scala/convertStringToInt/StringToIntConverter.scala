@@ -1,6 +1,6 @@
 package convertStringToInt
 
-class stringToIntConverter {
+class StringToIntConverter {
   def Convert (input : String) : Int = {
     var base = 1
     val multiplier = 0

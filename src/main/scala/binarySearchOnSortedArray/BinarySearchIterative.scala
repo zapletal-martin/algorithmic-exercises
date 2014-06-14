@@ -2,7 +2,7 @@ package binarySearchOnSortedArray
 
 import util.control.Breaks._
 
-class binarySearchIterative {
+class BinarySearchIterative {
   def Search(arr: Array[Int], search: Int): Int = {
     var start = 0
     var end = arr.length - 1
