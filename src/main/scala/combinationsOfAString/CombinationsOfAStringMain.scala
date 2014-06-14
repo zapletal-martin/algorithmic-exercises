@@ -1,6 +1,4 @@
-package main.scala.combinationsOfAString
-
-import main.scala.permutationsOfAString.PermutationsOfAString
+package combinationsOfAString
 
 object CombinationsOfAStringMain {
   def Run () = {

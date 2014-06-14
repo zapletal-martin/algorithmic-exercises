@@ -1,4 +1,4 @@
-package main.scala.reverseWordOrder.reverseByReadingWordsAndWritingThemInReversedOrderToOutputBuffer
+package reverseWordOrder.reverseByReadingWordsAndWritingThemInReversedOrderToOutputBuffer
 
 class WordTokenizer (sentenceToReverse : String) extends Iterator [String] {
   private var position : Int = 0;

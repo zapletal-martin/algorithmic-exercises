@@ -1,4 +1,4 @@
-package main.scala.functionType
+package functionType
 
 
 /**

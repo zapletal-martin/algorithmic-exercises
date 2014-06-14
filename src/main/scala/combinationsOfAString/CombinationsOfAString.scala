@@ -1,4 +1,4 @@
-package main.scala.combinationsOfAString
+package combinationsOfAString
 
 class CombinationsOfAString {
   def combine(input: String): Seq[String] = {

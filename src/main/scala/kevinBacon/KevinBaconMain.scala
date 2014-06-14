@@ -1,4 +1,4 @@
-package main.scala.kevinBacon
+package kevinBacon
 
 object KevinBaconMain {
   def Run () = {

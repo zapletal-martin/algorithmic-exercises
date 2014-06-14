@@ -1,4 +1,4 @@
-package main.scala.binarySearchOnSortedArray
+package binarySearchOnSortedArray
 
 class binarySearchRecursive {
   def Search(arr: Array[Int], search: Int): Int = {

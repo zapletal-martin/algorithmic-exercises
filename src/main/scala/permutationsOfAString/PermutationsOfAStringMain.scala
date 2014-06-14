@@ -1,4 +1,4 @@
-package main.scala.permutationsOfAString
+package permutationsOfAString
 
 object PermutationsOfAStringMain {
   def Run () = {

@@ -1,4 +1,4 @@
-package main.scala.binarySearchOnSortedArray
+package binarySearchOnSortedArray
 
 import util.control.Breaks._
 

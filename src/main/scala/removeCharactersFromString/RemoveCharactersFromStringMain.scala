@@ -1,4 +1,4 @@
-package main.scala.removeCharactersFromString
+package removeCharactersFromString
 
 object RemoveCharactersFromStringMain {
   def Run = {

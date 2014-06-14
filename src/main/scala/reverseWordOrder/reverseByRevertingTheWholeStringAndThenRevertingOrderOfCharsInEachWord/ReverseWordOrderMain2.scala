@@ -1,4 +1,4 @@
-package main.scala.reverseWordOrder.reverseByRevertingTheWholeStringAndThenRevertingOrderOfCharsInEachWord
+package reverseWordOrder.reverseByRevertingTheWholeStringAndThenRevertingOrderOfCharsInEachWord
 
 object ReverseWordOrderMain2 {
   def Run (sentence : String) = {

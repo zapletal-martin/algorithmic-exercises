@@ -1,6 +1,6 @@
-package main.scala.convertIntToString
+package convertIntToString
 
-import main.scala.reverseWordOrder.reverseByRevertingTheWholeStringAndThenRevertingOrderOfCharsInEachWord.Reverter
+import reverseWordOrder.reverseByRevertingTheWholeStringAndThenRevertingOrderOfCharsInEachWord.Reverter
 
 /*
 converts Int to String

@@ -1,4 +1,4 @@
-package main.scala.kevinBacon
+package kevinBacon
 
 import scala.collection.immutable.Queue
 

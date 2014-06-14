@@ -1,4 +1,4 @@
-package main.scala.removeCharactersFromString
+package removeCharactersFromString
 
 //TODO: use hash table for chars to remove -> no need to use contains - which cycles through remove -> reduces from O(mn) to O(n)
 class RemoveCharactersFromString {

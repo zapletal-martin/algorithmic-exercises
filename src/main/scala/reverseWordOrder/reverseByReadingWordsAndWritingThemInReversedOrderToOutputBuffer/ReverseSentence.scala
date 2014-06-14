@@ -1,4 +1,4 @@
-package main.scala.reverseWordOrder.reverseByReadingWordsAndWritingThemInReversedOrderToOutputBuffer
+package reverseWordOrder.reverseByReadingWordsAndWritingThemInReversedOrderToOutputBuffer
 
 class ReverseSentence {
   def revert (sentence : String) = {

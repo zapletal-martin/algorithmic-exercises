@@ -1,4 +1,4 @@
-package main.scala.queens
+package queens
 
 /*
 place N queens on N*N board without them attacking each other.
