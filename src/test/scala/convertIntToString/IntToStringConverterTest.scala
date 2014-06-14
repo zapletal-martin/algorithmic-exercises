@@ -1,7 +1,6 @@
-package convertIntOToString
+package convertIntToString
 
 import org.specs2.mutable.Specification
-import convertIntToString.IntToStringConverter
 import reverseWordOrder.reverseByRevertingTheWholeStringAndThenRevertingOrderOfCharsInEachWord.Reverter
 
 class IntToStringConverterTest extends Specification {
