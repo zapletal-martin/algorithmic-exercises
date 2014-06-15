@@ -13,7 +13,4 @@ class ReverseSentence {
 
     new String (buffer)
   }
-
-
-
 }

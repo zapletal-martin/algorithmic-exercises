@@ -1,0 +1,5 @@
+package reverseWordOrder
+
+class reverseByRevertingTheWholeStringAndThenRevertingOrderOfCharsInEachWordTest {
+
+}
