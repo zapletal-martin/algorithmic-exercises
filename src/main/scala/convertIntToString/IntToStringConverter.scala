@@ -2,18 +2,13 @@ package convertIntToString
 
 import reverseWordOrder.reverseByRevertingTheWholeStringAndThenRevertingOrderOfCharsInEachWord.Reverter
 
-/*
-converts Int to String
- */
+class IntToStringConverter (val reverter : Reverter) {
 
-
-class IntToStringConverter (val _reverter : Reverter) {
-
-  //divide or modulo
-  //732/100=7, 732-700 -> 32/10=3, 32 - 30 ....
-  //or 732 % 10 = 2, 732/10 = 73, 73 % 10 a revert
-  def Convert (input : Int) : String = {
-    var runningProduct : Int = input
+  /*divide or modulo
+  732/100=7, 732-700 -> 32/10=3, 32 - 30 ....
+  or 732 % 10 = 2, 732/10 = 73, 73 % 10 a revert */
+  def convert(input: Int): String = {
+    var runningProduct: Int = input
     var position = 0
     val buffer = new Array[Char](Int.MaxValue.toString.length)
 
@@ -25,7 +20,7 @@ class IntToStringConverter (val _reverter : Reverter) {
       position += 1
     }
 
-    _reverter.Revert(buffer, 0, position - 1)
+    reverter.Revert(buffer, 0, position - 1)
     new String(buffer.filter(c => c != '\u0000'))
   }
 }

@@ -1,7 +1,7 @@
 package reverseWordOrder.reverseByRevertingTheWholeStringAndThenRevertingOrderOfCharsInEachWord
 
 class Reverter {
-  def Revert [T] (input : Array [T], start : Int, end : Int) = {
+  def revert [T] (input : Array [T], start : Int, end : Int) = {
     var i = start
     var j = end
 

@@ -4,7 +4,7 @@ trait conversions {
   implicit def charToList(c: Char) = List(c)
 }
 
-class PermutationsOfAString extends conversions {
+class PermutationsOfAString extends Conversions {
   def mutate(input: String): Seq[String] = {
     input match {
       case "" => List("")
