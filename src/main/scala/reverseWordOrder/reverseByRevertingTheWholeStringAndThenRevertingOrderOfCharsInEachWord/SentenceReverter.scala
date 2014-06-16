@@ -1,6 +1,6 @@
 package reverseWordOrder.reverseByRevertingTheWholeStringAndThenRevertingOrderOfCharsInEachWord
 
-class ReverseSentence {
+class SentenceReverter {
   def revert (sentence : String) = {
     val reverter = new Reverter()
     val sen = sentence.toCharArray

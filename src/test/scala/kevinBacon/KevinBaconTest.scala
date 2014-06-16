@@ -26,25 +26,25 @@ class KevinBaconTest extends Specification {
       val _18 = new ActorNode("18");
       val _19 = new ActorNode("19");
 
-      kev.AddCoActor(_2);
-      kev.AddCoActor(_3);
-      kev.AddCoActor(_4);
+      kev.addCoActor(_2);
+      kev.addCoActor(_3);
+      kev.addCoActor(_4);
 
-      _2.AddCoActor(_3);
-      _2.AddCoActor(_5);
+      _2.addCoActor(_3);
+      _2.addCoActor(_5);
 
-      _3.AddCoActor(_15);
+      _3.addCoActor(_15);
 
-      _5.AddCoActor(_7);
-      _5.AddCoActor(_12);
+      _5.addCoActor(_7);
+      _5.addCoActor(_12);
 
-      _12.AddCoActor(_14);
+      _12.addCoActor(_14);
 
-      _14.AddCoActor(_15);
+      _14.addCoActor(_15);
 
-      _15.AddCoActor(_19);
+      _15.addCoActor(_19);
 
-      kev.SetBaconNumber();
+      kev.setBaconNumber();
 
       _19.BaconNumber must beEqualTo(3)
     }

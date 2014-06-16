@@ -1,6 +1,6 @@
 package permutationsOfAString
 
-trait conversions {
+trait Conversions {
   implicit def charToList(c: Char) = List(c)
 }
 

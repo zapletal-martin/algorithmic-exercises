@@ -1,6 +1,6 @@
 package reverseWordOrder.reverseByReadingWordsAndWritingThemInReversedOrderToOutputBuffer
 
-class ReverseSentence {
+class SentenceReverter {
   def revert(sentence: String) = {
     val wordTokenizer = new WordTokenizer(sentence)
     val buffer = new Array[Char](sentence.length)

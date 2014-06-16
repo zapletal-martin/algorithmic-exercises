@@ -12,7 +12,7 @@ class WordTokenizer (sentenceToReverse : String) extends Iterator [String] {
     var i = 0
     var c = 'r'
 
-    while ( { c != ' ' && hasNext } ) {
+    while (c != ' ' && hasNext) {
       c = sentenceToReverse.charAt(position)
       buffer(i) = c
       i += 1
