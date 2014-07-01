@@ -18,7 +18,7 @@ class CombinationsOfAStringTest extends Specification {
       result must contain("t")
       result must contain("ca")
       result must contain("ct")
-      result must contain("ac")
+      result must contain("at")
       result must contain("cat")
     }
   }
