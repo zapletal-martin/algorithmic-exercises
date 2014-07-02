@@ -1,7 +1,7 @@
 package telephoneNumber
 
 class TelephoneNumber {
-  def allCombinationsOfWords() = {
+  def allCombinationsOfWords(phoneNumber: List[Int]): List[String] = {
 
   }
 }
