@@ -17,5 +17,7 @@ class CombinationsOfAString {
     }
   }
 
-  
+  def cycle(prefix: String, input: List[Char], index: Int): List[String] =
+    prefix + input(index) :: cycle(prefix, input, index + 1)
+
 }
