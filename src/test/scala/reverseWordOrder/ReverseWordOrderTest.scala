@@ -1,6 +1,5 @@
 package reverseWordOrder
 
-import reverseWordOrder.reverseByReadingWordsAndWritingThemInReversedOrderToOutputBuffer.SentenceReverter
 import org.specs2.mutable.Specification
 
 class ReverseWordOrderTest extends Specification {
