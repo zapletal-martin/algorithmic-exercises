@@ -4,7 +4,7 @@ import org.specs2.mutable.Specification
 
 class TelephoneNumberTest extends Specification {
   "Telephone number" should {
-    lazy val result = new TelephoneNumber().allCombinationsOfWords(List(1,2,3))
+    lazy val result = new TelephoneNumber().allCombinationsOfWords(List(1,2))
 
     "Return all 9 possible combinations" in {
       result must have size(9)
