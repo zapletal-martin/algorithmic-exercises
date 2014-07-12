@@ -6,7 +6,7 @@ class CombinationsOfAStringTest extends Specification {
 
   "Combinations of a string" should {
 
-    /*"Create 7 combinations of a string" in {
+    "Create 7 combinations of a string" in {
       new CombinationsOfAString().combine("cat") must have size(7)
     }
 
@@ -20,6 +20,6 @@ class CombinationsOfAStringTest extends Specification {
       result must contain("ct")
       result must contain("at")
       result must contain("cat")
-    }*/
+    }
   }
 }
