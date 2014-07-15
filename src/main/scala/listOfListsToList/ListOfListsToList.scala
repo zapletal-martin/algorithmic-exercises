@@ -2,6 +2,6 @@ package listOfListsToList
 
 class ListOfListsToList {
   def unwind[A](input: List[List[A]]): List[A] = {
-    input(0)
+    input flatten
   }
 }
